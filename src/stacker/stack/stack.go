@@ -23,3 +23,17 @@ func (stack Stack) Cap() int {
 func (stack Stack) IsEmpty() bool {
 	return len(stack) == 0
 }
+
+func (stack *Stack) Push(x interface{})  {
+	*stack = append(*stack, x)
+}
+
+func (stack *Stack) Pop() (interface{},error){
+	theStack := *stack
+	if len(theStack) == 0{
+		return nil,errors.New("Can not pop an  empty stack")
+	}
+	x:= theStack[len(theStack)-1]
+	*stack = theStack[:len(theStack)-1]
+	return x,nil
+}
