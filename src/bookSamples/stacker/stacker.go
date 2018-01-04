@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"stacker/stack"
+	"bookSamples/stackerples/stacker/stack"
 )
 
 func main()  {
