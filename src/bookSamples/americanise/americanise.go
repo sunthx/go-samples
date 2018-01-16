@@ -13,7 +13,7 @@ import (
 )
 
 func main()  {
-	inFilename,outFilename,err:= filenameFromCommandline();
+	inFilename,outFilename,err:= filenameFromCommandline()
 	if err != nil{
 		fmt.Println(err)
 		os.Exit(1)
@@ -74,7 +74,7 @@ func americanise(inFile io.Reader,outFile io.Writer) (err error)  {
 	wordRx := regexp.MustCompile("[A-Za-z]+")
 	eof := false
 	for !eof{
-		var line string;
+		var line string
 		line,err = reader.ReadString('\n')
 		if err == io.EOF{
 			err = nil

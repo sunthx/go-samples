@@ -15,7 +15,7 @@ func main()  {
 	for{
 		item,err:=haystack.Pop()
 		if err != nil{
-			break;
+			break
 		}
 		fmt.Println(item)
 	}
