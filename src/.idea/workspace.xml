@@ -14,7 +14,7 @@
       <file leaf-file-name="exception1.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/exception/exception1.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="57">
               <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
               <folding />
             </state>
@@ -24,7 +24,7 @@
       <file leaf-file-name="oop.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/oop/oop.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
+            <state relative-caret-position="1444">
               <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding>
                 <element signature="e#13#41#0" expanded="true" />
@@ -33,13 +33,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oop2.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="oop2.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/oop/oop2.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="323">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oop3.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base/oop/oop3.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,6 +84,7 @@
         <option value="$PROJECT_DIR$/base/exception/oop.go" />
         <option value="$PROJECT_DIR$/base/oop/oop.go" />
         <option value="$PROJECT_DIR$/base/oop/oop2.go" />
+        <option value="$PROJECT_DIR$/base/oop/oop3.go" />
       </list>
     </option>
   </component>
@@ -101,6 +114,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,9 +140,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,21 +167,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Application.oop2.go">
+  <component name="RunManager" selected="Go Application.oop3.go">
     <configuration name="exception1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/base/exception/exception1.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
-    <configuration name="go build collection2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="src" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/bookSamples/collection/collection2.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build collection4.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -187,6 +192,14 @@
       <filePath value="$PROJECT_DIR$/base/oop/oop2.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="oop3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/base/oop/oop3.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="oop.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -196,17 +209,18 @@
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Application.go build collection2.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Application.go build collection4.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Application.exception1.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Application.oop.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Application.oop2.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Application.go build collection4.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Application.exception1.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Application.oop.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Application.oop2.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Application.oop3.go" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Go Application.oop2.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Application.oop.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Application.exception1.go" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Go Application.oop3.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Application.oop2.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Application.oop.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Application.exception1.go" />
       </list>
     </recent_temporary>
   </component>
@@ -221,15 +235,17 @@
       <option name="presentableId" value="Default" />
       <updated>1516626245901</updated>
       <workItem from="1516626251151" duration="1970000" />
-      <workItem from="1516712718545" duration="4717000" />
+      <workItem from="1516712718545" duration="5269000" />
+      <workItem from="1516803547641" duration="1317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6687000" />
+    <option name="totallyTimeSpent" value="8556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -239,11 +255,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871794" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -274,6 +290,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/base/exception/exception1.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/oop/oop.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/oop/oop2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/exception/exception1.go">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -291,7 +335,7 @@
     <entry file="file://$PROJECT_DIR$/bookSamples/collection/collection4.go" />
     <entry file="file://$PROJECT_DIR$/base/exception/exception1.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="57">
           <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
@@ -299,7 +343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/base/oop/oop.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
+        <state relative-caret-position="1444">
           <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
             <element signature="e#13#41#0" expanded="true" />
@@ -309,10 +353,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/base/oop/oop2.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="323">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/oop/oop3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
