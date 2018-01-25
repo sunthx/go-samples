@@ -1,1 +1,0 @@
-package go_mysql_crud
