@@ -12,11 +12,8 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
-src/.idea/workspace.xml
-src/.idea/workspace.xml
-src/.idea/workspace.xml
-src/github.com/lib/pq/
+src/.idea/
 bin/
 pkg/
 packages/
-src/github.com/julienschmidt/httprouter/
+src/github.com/
