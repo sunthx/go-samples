@@ -18,3 +18,5 @@ src/.idea/workspace.xml
 src/github.com/lib/pq/
 bin/
 pkg/
+packages/
+src/github.com/julienschmidt/httprouter/

@@ -10,7 +10,66 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="http_serve.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/http_serve.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#14#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http_route.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/http_route.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http_create_ca.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/http_create_ca.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+              <folding>
+                <element signature="e#14#137#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http_hello.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/http_hello.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http_customServeMux.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/http_customServeMux.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding>
+                <element signature="e#14#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,6 +117,10 @@
         <option value="$PROJECT_DIR$/bookSamples/chitchat/utils.go" />
         <option value="$PROJECT_DIR$/bookSamples/chitchat/data/data.go" />
         <option value="$PROJECT_DIR$/db/postgres.go" />
+        <option value="$PROJECT_DIR$/web/http_create_ca.go" />
+        <option value="$PROJECT_DIR$/web/http_Serve.go" />
+        <option value="$PROJECT_DIR$/web/http_route.go" />
+        <option value="$PROJECT_DIR$/web/http_customServeMux.go" />
       </list>
     </option>
   </component>
@@ -110,7 +173,7 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -132,37 +195,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Application.postgres.go">
-    <configuration name="goroutine2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+  <component name="RunManager" selected="Go Application.http_customServeMux.go">
+    <configuration name="http_Serve.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/base/goroutine/goroutine2.go" />
+      <filePath value="$PROJECT_DIR$/web/http_Serve.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="helloGoWeb.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="http_create_ca.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/web/helloGoWeb.go" />
+      <filePath value="$PROJECT_DIR$/web/http_create_ca.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="http_customServeMux.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/bookSamples/chitchat/main.go" />
+      <filePath value="$PROJECT_DIR$/web/http_customServeMux.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="oop5.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="http_route.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/base/oop/oop5.go" />
+      <filePath value="$PROJECT_DIR$/web/http_route.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="postgres.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -174,19 +237,19 @@
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Application.oop5.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Application.goroutine2.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Application.helloGoWeb.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Application.main.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Application.postgres.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Application.postgres.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Application.http_create_ca.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Application.http_Serve.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Application.http_route.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Application.http_customServeMux.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Application.postgres.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Application.main.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Application.helloGoWeb.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Application.goroutine2.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Application.oop5.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Application.http_customServeMux.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Application.http_route.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Application.http_Serve.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Application.http_create_ca.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Application.postgres.go" />
       </list>
     </recent_temporary>
   </component>
@@ -203,12 +266,12 @@
       <workItem from="1516626251151" duration="1970000" />
       <workItem from="1516712718545" duration="5269000" />
       <workItem from="1516803547641" duration="12010000" />
-      <workItem from="1517644659458" duration="3234000" />
+      <workItem from="1517644659458" duration="10203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22483000" />
+    <option name="totallyTimeSpent" value="29452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -249,14 +312,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/db/postgres.go</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
@@ -266,6 +321,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -291,6 +347,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -327,6 +384,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -354,6 +412,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -361,6 +420,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
           <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="e#14#59#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -496,14 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/helloGoWeb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/base.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -570,10 +624,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/postgres.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="68" selection-end-line="53" selection-end-column="72" />
+        <state relative-caret-position="114">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/http_route.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#14#78#0" expanded="true" />
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/http_serve.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/http_create_ca.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding>
+            <element signature="e#14#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/http_hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/http_customServeMux.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#14#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
