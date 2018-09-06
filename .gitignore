@@ -17,3 +17,5 @@ bin/
 pkg/
 packages/
 src/github.com/
+*.xml
+*.iml
