@@ -6,19 +6,12 @@ import (
 )
 
 func main() {
-	exp := "/b/w+(?=ing/b)"
-	reg, err := regexp.CompilePOSIX(exp)
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
+	test_data := "abc 123"
+	test_exp := `\w{3}|\d{3}`
 
-	result := reg.Match([]byte("sunfei"))
-	if result {
-		fmt.Println("Succeed")
-	} else {
-		fmt.Println("Error")
-	}
+	reg, _ := regexp.Compile(test_exp)
+	res := reg.FindAll([]byte(test_data), -1)
 
-	fmt.Println("DONE")
+	fmt.Println(string(res[0]))
+	fmt.Println(string(res[1]))
 }
