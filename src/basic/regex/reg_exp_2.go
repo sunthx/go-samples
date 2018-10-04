@@ -1,20 +1,24 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/dlclark/regexp2"
+	"fmt"
 )
 
 func main() {
-	var test_data = `<html><a href="http://www.baidu.com" target="_parent" /></html>`
+	var testData = `<html><a href="http://www.baidu.com" target="_parent" /></html>`
 	var exp = `(?<=<a.*href=").*(?="\s*target.*\/>)|(?<=<a.*\s*target=").*(?="\s?.*\/>)`
+
 	regexp := regexp2.MustCompile(exp, 0)
-	res, err := regexp.FindStringMatch(test_data)
+	res, err := regexp.FindStringMatch(testData)
 	if err != nil {
 		fmt.Println("error")
 		return
 	}
+
+	groups := res.Groups()
+	fmt.Println(len(groups))
+	fmt.Println(groups[0].Captures[0].String())
 
 	fmt.Println(res)
 }
