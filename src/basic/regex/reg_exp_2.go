@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	var testData = `<html><a href="http://www.baidu.com" target="_parent" /></html>`
+	var testData = `<html><a href="http://www.baidu.com" target="_parent" /><a href="http://www.baidu.com" target="_parent" /></html>`
 	var exp = `(?<=<a.*href=").*(?="\s*target.*\/>)|(?<=<a.*\s*target=").*(?="\s?.*\/>)`
 
 	regexp := regexp2.MustCompile(exp, 0)
